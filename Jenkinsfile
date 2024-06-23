@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/nicolefgross/testes-api-cy.git'
+                git branch: 'main', url: 'https://github.com/Eduufm/modulo15.git'
             }
         }
         stage('Instalar dependências') {
